@@ -99,3 +99,4 @@
 [22-Jun-2017 22:02:59 UTC] PHP Notice:  Undefined offset: 1 in /home/penton7/public_html/come-to-vegas.wasteexpo.com/wp-admin/includes/dashboard.php on line 1214
 [28-Jun-2017 16:00:04 UTC] PHP Notice:  Undefined offset: 1 in /home/penton7/public_html/come-to-vegas.wasteexpo.com/wp-admin/includes/dashboard.php on line 1214
 [09-Jul-2017 22:02:15 UTC] PHP Notice:  Undefined offset: 1 in /home/penton7/public_html/come-to-vegas.wasteexpo.com/wp-admin/includes/dashboard.php on line 1214
+[09-Jul-2017 22:00:11 America/Los_Angeles] PHP Fatal error:  Call to undefined function send_origin_headers() in /home/penton7/public_html/come-to-vegas.wasteexpo.com/wp-admin/admin-ajax.php on line 25
