@@ -1,0 +1,212 @@
+body {
+  color: $text-color;
+  font-family: $font-family-sans-serif;
+}
+.navbar-default {
+  border-width: 0;
+}
+.navbar-brand {
+  background: url(../../dist/images/WasteExpo.svg) 0 0 no-repeat;
+  background-size: 100%;
+  text-indent: -5000em;
+}
+.navbar-nav {
+  float: none;
+}
+.navbar-nav>li>a {
+	padding-top: 5px;
+	padding-bottom: 5px;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+.navbar-default>.container .navbar-brand {
+  width: 45px;
+  height: 45px;
+  margin: 5px;
+  padding: 0;
+}
+.navbar-toggle {
+  margin-top: 10px;
+}
+.navbar-toggle:hover .icon-bar,
+.navbar-toggle:active .icon-bar,
+.navbar-toggle:focus .icon-bar {
+  background-color: #fff
+}
+.navbar-default .navbar-nav>.nav-highlight>a {
+  background: $brand-primary;
+  font-weight: 700;
+  color: #fff;
+}
+.navbar-default .navbar-collapse {
+  text-align: left;
+}
+
+.container.secondary-nav {
+	background: $brand-secondary;
+	border-bottom: 1px solid $bg-light-secondary;
+	#secondary-nav {
+		overflow: hidden;
+		list-style: none;
+		margin: 0;
+		padding: 10px 0 15px;
+		li {
+			margin: 0;
+			padding: 0;
+			a {
+				padding: 0 30px 0 0;
+				color: #fff;
+			}
+		}
+		li.active a {
+			text-decoration: underline;
+		}
+	}
+}
+
+
+.home .container {
+  text-align: center;
+}
+
+.page .wrap {
+  padding-bottom: 50px;
+}
+.page .page-header {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.navbar-collapse ul {
+  margin-bottom: 0;
+}
+.widget_thumbnail_widget {
+  text-align: center;
+}
+.home {
+  .col-md-9 {
+    float: none;
+    margin: 0 auto;
+  }
+}
+
+#personas {
+  clear: left;
+  overflow: hidden;
+  margin: 10px auto;
+  .clearfix {
+    display: inline-block;
+  }
+  a {
+    position: relative;
+    display: block;
+    width: 250px;
+    height: 250px;
+    margin: 0 5px 5px;
+    padding: 0;
+    background: url(../../assets/images/sprite.png) 0 0 no-repeat;
+    span {
+      display: block;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      margin: 0;
+      padding: 10px 0;
+      text-align: center;
+      background-color: rgba(0, 128, 162, 0.75);
+    }
+  }
+  a:hover {
+    color: #fff;
+    text-decoration: none;
+    span {
+      background-color: rgba(0, 128, 162, 0.5);
+    }
+  }
+  a.type-arts { background-position: 0 0; }
+  a.type-foodie { background-position: -260px 0; }
+  a.type-green { background-position: -520px 0; }
+  a.type-history { background-position: 0 -260px; }
+  a.type-outdoor { background-position: -260px -260px; }
+  a.type-shopaholic { background-position: -520px -260px; }
+}
+
+aside.sidebar {
+  margin-top: 54px;
+}
+
+footer .copyright {
+  padding-top: 12px;
+  a {
+    color: $brand-tertiary;
+  }
+}
+footer.content-info {
+  position:relative;
+  overflow: hidden;
+  height: 150px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border-width: 0;
+  border-left: 0px;
+  background: #fff;
+  color: #555759;
+}
+footer.content-info:before {
+  content: "";
+  display: block;
+  background: #3fc1cb;
+  position: absolute;
+  top: -100%;
+  left: -15%;
+  width: 130%;
+  height: 130%;
+  border-radius: 75%;
+  border: 1px solid #3fc1cb;
+  margin: auto;
+  text-align: center;
+}
+footer.content-info .container {
+  padding-top: 60px;
+}
+footer .pull-right {
+  display: block;
+  clear: both;
+  float: none !important;
+  padding-top: 5px;
+  img {
+  	display: block;
+  	margin: auto;
+  }
+}
+@media only screen and (min-width: $screen-xs) {
+	.navbar-toggle {
+		margin-top: 30px;
+	}
+  .nav-highlight {
+      float: right !important;
+  }
+  .navbar-default>.container .navbar-brand {
+    width: 65px;
+    height: 75px;
+    margin: 10px 20px 10px 0;
+  }
+  .widget_thumbnail_widget {
+    text-align: right;
+  }
+  footer .pull-right {
+    clear: none;
+    padding-top: 0;
+    float: right !important;
+  }
+  footer.content-info .container {
+    padding-top: 85px;
+  }
+}
+@media only screen and (min-width: $screen-sm) {
+	 .navbar-nav>li>a {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	  }
+}

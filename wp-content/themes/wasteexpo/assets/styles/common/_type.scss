@@ -1,0 +1,40 @@
+h1 {
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.home h2 {
+  font-size: 40px;
+}
+h3 {
+  margin: 0 0 40px;
+  font-weight: normal;
+}
+/* lighten up */
+@mixin button-variant($color, $background, $border) {
+  &:focus,
+  &.focus {
+    color: $color;
+    background-color: darken($background, 5%);
+        border-color: darken($border, 25%);
+  }
+  &:hover {
+    color: $color;
+    background-color: darken($background, 5%);
+        border-color: darken($border, 12%);
+  }
+  &:active,
+  &.active,
+  .open > &.dropdown-toggle {
+    color: $color;
+    background-color: darken($background, 5%);
+        border-color: darken($border, 12%);
+
+    &:hover,
+    &:focus,
+    &.focus {
+      color: $color;
+      background-color: darken($background, 10%);
+          border-color: darken($border, 25%);
+    }
+  }
+}

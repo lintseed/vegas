@@ -1,0 +1,35 @@
+header #nav.affix {
+  position: fixed;
+  z-index: 9;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  -webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.25);
+  -moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.25);
+  box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.25);
+  ul {
+    min-height: 0;
+    li {
+      a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+    }
+  }
+}
+header #nav.affix .menu-primary-navigation-container {
+  @include container-fixed;
+
+  @media (min-width: $screen-sm-min) {
+    width: $container-sm;
+  }
+  @media (min-width: $screen-md-min) {
+    width: $container-md;
+  }
+  @media (min-width: $screen-lg-min) {
+    width: $container-lg;
+  }
+}
+.test {
+color: pink }
