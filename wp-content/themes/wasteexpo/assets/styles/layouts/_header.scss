@@ -42,9 +42,11 @@ header #nav.affix .menu-primary-navigation-container {
   padding: 0;
   li {
     margin: 10px 25px 0 0;
-    // @media (max-width: $screen-lg) {
-    // }
-    // @media (max-width: $screen-lg) {
-    // }
+    a {
+      @media (max-width: $screen-lg) and (min-width: $screen-md) {
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
   }
 }
