@@ -2,8 +2,9 @@
   "dependencies": {
     "main.js": {
       "files": [
-        "scripts/main.js"
-      ],
+        "scripts/template-cache.js",
+        "scripts/components/**/*.js",
+        "scripts/main.js"],
       "main": true
     },
     "main.css": {
@@ -12,19 +13,21 @@
       ],
       "main": true
     },
-    "editor-style.css": {
+    "customizer.js": {
       "files": [
-        "styles/editor-style.scss"
+        "scripts/customizer.js"
+      ]
+    },
+    "template-cache.html": {
+      "files": [
+        "scripts/template-cache/**/*.html"
       ]
     },
     "jquery.js": {
       "bower": ["jquery"]
-    },
-    "modernizr.js": {
-      "bower": ["modernizr"]
     }
   },
   "config": {
-    "devUrl": "http://example.dev"
+    "devUrl": "http://wp-starter.sandbox.dev"
   }
 }

@@ -16,35 +16,31 @@ $gray:                   lighten($gray-base, 33.5%); // #555
 $gray-light:             lighten($gray-base, 46.7%); // #777
 $gray-lighter:           lighten($gray-base, 93.5%); // #eee
 
-$brand-primary:         #76bd41;
+$brand-primary:         #25cad3;
 $brand-secondary:       #3fc1cb;
 $brand-tertiary:        #555759;
-$brand-success:         #7abdbc;
-$brand-info:            #0080a2;
-$brand-warning:         #e8d563;
-$brand-danger:          #734300;
+$brand-success:         #77bc1f;
+$brand-info:            #007da4;
+$brand-warning:         #545759;
+$brand-danger:          #f5f5f5;
 $brand-white:           #ffffff;
 
 //Background Tints edits
-$bg-light-primary:         lighten(#76bd41, 25.0%);
-$bg-light-secondary:         lighten(#3fc1cb, 25.0%);
-$bg-light-success:         lighten(#7abdbc, 25.0%);
-$bg-light-info:            lighten(#231f20, 25.0%);
-$bg-light-warning:         lighten(#e8d563, 25.0%);
-$bg-light-danger:          lighten(#734300, 50.0%);
-/*
-#3fc1cb primary blue
-#0080a2 medium blue
-#76bd41 lime
-#555759 charcoal
-*/
+$bg-light-primary:         lighten($brand-primary, 25.0%);
+$bg-light-secondary:       lighten($brand-secondary, 25.0%);
+$bg-light-tertiary:        lighten($brand-tertiary, 25.0%);
+$bg-light-success:         lighten($brand-success, 25.0%);
+$bg-light-info:            lighten($brand-info, 25.0%);
+$bg-light-warning:         lighten($brand-warning, 25.0%);
+$bg-light-danger:          lighten($brand-danger, 50.0%);
+
 
 //== Scaffolding
 //
 //## Settings for some of the most global styles.
 
 //** Background color for `<body>`.
-$body-bg:               #3fc1cb;
+$body-bg:               $brand-primary;
 //** Global text color on `<body>`.
 $text-color:            #ffffff;
 
@@ -310,7 +306,7 @@ $screen-phone:               $screen-xs-min;
 
 // Small screen / tablet
 //** Deprecated `$screen-sm` as of v3.0.1
-$screen-sm:                  990px;
+$screen-sm:                  768px;
 $screen-sm-min:              $screen-sm;
 //** Deprecated `$screen-tablet` as of v3.0.1
 $screen-tablet:              $screen-sm-min;
