@@ -36,3 +36,11 @@ header #nav.affix .menu-primary-navigation-container {
   background: linear-gradient(to bottom,#007da4 0,#25cad3 100%);
   color: #fff;
 }
+#secondary-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  li {
+    margin: 10px 25px 0 0;
+  }
+}

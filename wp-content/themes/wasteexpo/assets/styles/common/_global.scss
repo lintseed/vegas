@@ -32,15 +32,16 @@ body {
 }
 .navbar-toggle {
   margin-top: 14px;
-}
-.navbar-toggle:hover .icon-bar,
-.navbar-toggle:active .icon-bar,
-.navbar-toggle:focus .icon-bar {
   background-color: $gray;
   color: $brand-white;
 }
-.navbar-default .navbar-toggle .icon-bar, .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-  background-color: $brand-white;
+.navbar-default {
+  .navbar-toggle .icon-bar,
+  .navbar-toggle:hover .icon-bar,
+  .navbar-toggle:active .icon-bar,
+  .navbar-toggle:focus .icon-bar {
+    background-color: $brand-white;
+  }
 }
 
 .navbar-default .navbar-nav>.nav-highlight>a {
