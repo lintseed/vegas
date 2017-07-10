@@ -30,6 +30,7 @@ body {
   font-size: 14px;
   text-transform: uppercase;
   @media (max-width: $screen-lg) and (min-width: $screen-md) {
+    font-size: 12px;
     padding-left: 5px;
     padding-right: 5px;
   }
