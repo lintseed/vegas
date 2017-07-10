@@ -8,10 +8,13 @@ body {
 .navbar-brand {
   width: 100px;
   height: 72px;
-  margin: 18px 10px 0 0;
+  margin: 18px 20px 0 0;
   background: url('http://eventservices.penton.com/events/2018/waste_expo/core/img/WasteExpo50Yrs.jpg') 0 0 no-repeat;
   background-size: 100%;
   text-indent: -5000em;
+  @media (max-width: $screen-sm) {
+    width: 50px;
+  }
 }
 .navbar-nav {
   float: none;

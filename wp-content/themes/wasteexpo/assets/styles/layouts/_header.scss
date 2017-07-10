@@ -31,3 +31,8 @@ header #nav.affix .menu-primary-navigation-container {
     width: $container-lg;
   }
 }
+.navbar-default .navbar-nav>.nav-highlight>a {
+  background: #007da4;
+  background: linear-gradient(to bottom,#007da4 0,#25cad3 100%);
+  color: #fff;
+}
