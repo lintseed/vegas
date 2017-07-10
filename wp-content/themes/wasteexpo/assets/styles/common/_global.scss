@@ -12,8 +12,12 @@ body {
   background: url('http://eventservices.penton.com/events/2018/waste_expo/core/img/WasteExpo50Yrs.jpg') 0 0 no-repeat;
   background-size: 100%;
   text-indent: -5000em;
+  @media (max-width: $screen-md) {
+    width: 75px;
+  }
   @media (max-width: $screen-sm) {
     width: 50px;
+    margin-left: 20px;
   }
 }
 .navbar-nav {
