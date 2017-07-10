@@ -8,34 +8,40 @@ body {
 .navbar-brand {
   width: 100px;
   height: 72px;
-  margin: 18px 20px 0 0;
+  margin: 18px 24px 0 0;
   background: url('http://eventservices.penton.com/events/2018/waste_expo/core/img/WasteExpo50Yrs.jpg') 0 0 no-repeat;
   background-size: 100%;
   text-indent: -5000em;
   @media (max-width: $screen-md) {
     width: 75px;
+    height: 50px;
   }
   @media (max-width: $screen-sm) {
     width: 50px;
+    height: 50px;
     margin-left: 20px;
   }
 }
 .navbar-nav {
   float: none;
+  border-width: 0;
 }
 .navbar-nav>li>a {
-  font-size: 13px;
+  font-size: 14px;
   text-transform: uppercase;
 }
 .navbar-toggle {
-  margin-top: 10px;
+  margin-top: 14px;
 }
 .navbar-toggle:hover .icon-bar,
 .navbar-toggle:active .icon-bar,
 .navbar-toggle:focus .icon-bar {
-  background-color: #fff
+  background-color: $gray;
+  color: $brand-white;
 }
-
+.navbar-default .navbar-toggle .icon-bar, .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: $brand-white;
+}
 
 .navbar-default .navbar-nav>.nav-highlight>a {
   background: $brand-primary;
