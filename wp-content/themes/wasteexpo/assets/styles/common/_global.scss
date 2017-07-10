@@ -6,6 +6,9 @@ body {
   border-width: 0;
 }
 .navbar-brand {
+  width: 100px;
+  height: 72px;
+  margin: 18px 10px 0 0;
   background: url('http://eventservices.penton.com/events/2018/waste_expo/core/img/WasteExpo50Yrs.jpg') 0 0 no-repeat;
   background-size: 100%;
   text-indent: -5000em;
@@ -16,12 +19,6 @@ body {
 .navbar-nav>li>a {
   font-size: 13px;
   text-transform: uppercase;
-}
-.navbar>.container .navbar-brand {
-  width: 45px;
-  height: 45px;
-  margin: 5px;
-  padding: 0;
 }
 .navbar-toggle {
   margin-top: 10px;
@@ -163,8 +160,8 @@ footer .pull-right {
     padding-bottom: 40px;
   }
   .navbar>.container .navbar-brand {
-    width: 65px;
-    margin: 10px 20px 10px 0;
+    // width: 65px;
+    // margin: 10px 20px 10px 0;
   }
   .widget_thumbnail_widget {
     text-align: right;
