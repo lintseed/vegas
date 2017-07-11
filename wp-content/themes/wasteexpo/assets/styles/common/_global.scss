@@ -29,6 +29,14 @@ body {
 .navbar-nav>li>a {
   font-size: 14px;
   text-transform: uppercase;
+  @media only screen and (min-width: $screen-xs) {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+  @media only screen and (min-width: $screen-md) {
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+  }
   @media (max-width: $screen-lg) and (min-width: $screen-md) {
     font-size: 12px;
     padding-left: 10px;
@@ -170,7 +178,12 @@ footer .pull-right {
   float: none !important;
   padding-top: 5px;
 }
-@media only screen and (min-width: $screen-xs) {
+@media only screen and (max-width: $screen-sm) {
+  .nav-highlight {
+    border-bottom: 1px solid #007da4;
+  }
+}
+@media only screen and (min-width: $screen-md) {
   .nav-highlight {
       float: right!important;
   }
