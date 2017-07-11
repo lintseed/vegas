@@ -21,4 +21,5 @@
   <meta name="msapplication-TileImage" content="/mstile-144x144.png">
   <meta name="theme-color" content="#ffffff">
   <?php wp_head(); ?>
+  <meta name="google-site-verification" content="7Cps999AbOWPL2FF1s3NQel1Zz30ueLTOagXGAo2UY8" />
 </head>
